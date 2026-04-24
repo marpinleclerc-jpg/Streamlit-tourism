@@ -65,6 +65,6 @@ if proses_btn:
 
         # --- TABEL DATA ---
         st.write("### Data Review Terbaru")
-        st.dataframe(df[['at', 'userName', 'content', 'Sentimen', 'Skor']].head(10))
+        st.dataframe(df[['at', 'userName', 'content', 'Sentimen', 'Skor']].head(100))
 else:
     st.info("Silakan tentukan jumlah review di sidebar dan klik 'Mulai Analisa'")
