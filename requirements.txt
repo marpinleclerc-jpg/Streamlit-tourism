@@ -1,0 +1,7 @@
+streamlit
+pandas
+transformers
+torch
+google-play-scraper
+matplotlib
+seaborn
